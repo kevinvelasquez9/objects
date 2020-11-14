@@ -1,0 +1,22 @@
+confusion0.jpg: person 
+confusion1.jpg: person 
+confusion10.jpg: person 
+confusion100.jpg: person 
+confusion1000.jpg: person surfboard 
+confusion1001.jpg: person 
+confusion1002.jpg: person kite 
+confusion1003.jpg: person kite 
+confusion1004.jpg: tie 
+confusion1005.jpg: person tie 
+confusion1007.jpg: tie 
+confusion1008.jpg: person 
+confusion1009.jpg: person 
+confusion101.jpg: person horse elephant 
+confusion1010.jpg: person 
+confusion1011.jpg: person 
+confusion1012.jpg: person tie 
+confusion1013.jpg: person cell phone 
+confusion1014.jpg: person 
+confusion1015.jpg: person remote 
+confusion1016.jpg: clock 
+confusion1017.jpg: person 
