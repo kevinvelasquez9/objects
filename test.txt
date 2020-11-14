@@ -1,22 +1,13 @@
-confusion0.jpg: person 
-confusion1.jpg: person 
-confusion10.jpg: person 
-confusion100.jpg: person 
-confusion1000.jpg: person surfboard 
-confusion1001.jpg: person 
-confusion1002.jpg: person kite 
-confusion1003.jpg: person kite 
-confusion1004.jpg: tie 
-confusion1005.jpg: person tie 
-confusion1007.jpg: tie 
-confusion1008.jpg: person 
-confusion1009.jpg: person 
-confusion101.jpg: person horse elephant 
-confusion1010.jpg: person 
-confusion1011.jpg: person 
-confusion1012.jpg: person tie 
-confusion1013.jpg: person cell phone 
-confusion1014.jpg: person 
-confusion1015.jpg: person remote 
-confusion1016.jpg: clock 
-confusion1017.jpg: person 
+anger0.jpg: person 0.94 
+anger1.jpg: person 0.89 
+anger10.jpg: broccoli 0.36 person 0.95 
+anger100.jpg: person 0.93 
+anger1000.jpg: apple 0.78 
+anger10000.jpg: person 0.79 person 0.90 
+anger10001.jpg: tie 0.48 cell phone 0.67 person 0.76 
+anger10002.jpg: tie 0.39 person 0.52 tie 0.53 
+anger10003.jpg: person 0.41 person 0.49 
+anger10004.jpg: person 0.75 person 0.92 
+anger10005.jpg: person 0.87 person 0.89 
+anger10006.jpg: person 0.93 person 0.95 
+anger10007.jpg: person 0.56 person 0.82 

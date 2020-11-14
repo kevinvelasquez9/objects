@@ -122,20 +122,20 @@ def detect(save_img=False):
                 for c in det[:, -1].unique():
                     n = (det[:, -1] == c).sum()  # detections per class
                     s += '%g %ss, ' % (n, names[int(c)])  # add to string
-                    f.write(names[int(c)] + ' ')
+                    #f.write(names[int(c)] + ' ')
                     # print(names[int(c)])
-                f.write('\n')
+                #f.write('\n')
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
                     if save_txt:  # Write to file
                         xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4)) / gn).view(-1).tolist()  # normalized xywh
                         with open(save_path[:save_path.rfind('.')] + '.txt', 'a') as file:
-                            file.write(('%g ' * 5 + '\n') % (cls, *xywh))  # label format
+                          file.write(('%g ' * 5 + '\n') % (cls, *xywh))  # label format
 
-                    if save_img or view_img:  # Add bbox to image
-                        label = '%s %.2f' % (names[int(cls)], conf)
-                        #plot_one_box(xyxy, im0, label=label, color=colors[int(cls)])
-
+                    f.write(str(names[int(cls)]) + ' ' + '{:.2f}'.format(conf) + ' ')
+                    # label = '%s %.2f' % (names[int(cls)], conf)
+                    #plot_one_box(xyxy, im0, label=label, color=colors[int(cls)])
+                f.write('\n')
             # Print time (inference + NMS)
             # print('%sDone. (%.3fs)' % (s, t2 - t1))
 
